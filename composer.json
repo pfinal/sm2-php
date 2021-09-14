@@ -1,0 +1,19 @@
+{
+    "name": "pfinal/sm2-php",
+    "description": "Spaced repetition algorithms (SuperMemo algorithm SM-2)",
+    "keywords": ["sm2", "spaced repetition"],
+    "license": "MIT",
+    "homepage": "http://www.pfinal.cn",
+    "support": {
+        "source": "https://github.com/pfinal/sm2"
+    },
+    "require": {
+        "php": ">=5.4",
+        "nesbot/carbon": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "PFinal\\SuperMemo\\": "src/"
+        }
+    }
+}
